@@ -1,0 +1,71 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+}
+
+.row {
+  overflow-x: hidden;
+}
+
+.kema {
+  background: url("/img/qema.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  width: 800px;
+}
+
+.kema::after {
+  content: "";
+  height: 1000px;
+  width: 100px;
+  background-color: black;
+}
+
+.pt_5 {
+  padding-top: 300px;
+  padding-left: 50px;
+  font-weight: 700;
+  font-family: Oswald, sans-serif;
+  font-size: 2.25rem;
+  line-height: 1.1;
+}
+
+.yol {
+  background: url("/img/kattayol.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  width: 500px;
+}
+
+.pt_4 {
+  padding-top: 300px;
+  font-weight: 700;
+  font-family: Oswald, sans-serif;
+  font-size: 2.25rem;
+  line-height: 1.1;
+}
+
+.qema2 {
+  background: url("/img/metro.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  width: 500px;
+}
+/*# sourceMappingURL=main.css.map */
