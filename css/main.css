@@ -68,4 +68,17 @@ body {
   min-height: 400px;
   width: 500px;
 }
+
+.qema9 {
+  background: url("/img/qema2.jpeg");
+  background-repeat: no-repeat;
+  width: 700px;
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 614px;
+}
+
+.width {
+  width: 400px;
+}
 /*# sourceMappingURL=main.css.map */
