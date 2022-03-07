@@ -63,4 +63,33 @@ body {
     min-height: 400px ;
     width: 500px;
 }
-
+.ls-1{
+    letter-spacing: 7px;
+    font-size: 20px ;
+    font-family: serif;
+}
+.lineer-gradient{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.425), rgba(0, 0, 0, 0.452)), url(../img/10.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sidebar__p{
+    width: 623px;
+    font-size: 14px;
+}
+.persons__img{
+    width: 150px;
+    height: 150px;
+}
+.serif{
+    font-family: serif;
+}
+.display-5{
+    font-size: 48px;
+}
+.letter{
+    letter-spacing: 3px;
+}
+.dd{
+    font-size: 56px;
+}
